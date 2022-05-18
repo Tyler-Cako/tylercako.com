@@ -1,9 +1,11 @@
 import React from 'react'
-import NavBar from './components/navBar'
+import NaviBar from './components/naviBar'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 const App = () => {
   return(
-    <NavBar />
+    <NaviBar />
   )
 }
 

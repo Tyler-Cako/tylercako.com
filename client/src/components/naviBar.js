@@ -1,18 +1,27 @@
 import React from 'react'
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
-import '../CSS/naviBar.css'
+import Dropdown from 'react-bootstrap/Dropdown'
+import Navbar from 'react-bootstrap/Navbar'
+import './naviBar.css'
+
+
 
 const NaviBar = () => {
     return(
         <Navbar fixed="top" >
             <Container>
                 <Navbar.Brand className="text-primary" href="/">Logo</Navbar.Brand>
-                <Nav.Link href="/" className="text-secondary">Home</Nav.Link>
-                <Nav.Link href="/">About</Nav.Link>
-                <Nav.Link href="/">Projects</Nav.Link>
-                <Nav.Link href="/">Github</Nav.Link>
+                <Dropdown>
+                    <Dropdown.Toggle />
+                    
+                    <Dropdown.Menu align="start">
+                        <Dropdown.Item href="/" className="text-secondary">Home</Dropdown.Item>
+                        <Dropdown.Item href="/" className="text-secondary">About</Dropdown.Item>
+                        <Dropdown.Item href="/" className="text-secondary">Projects</Dropdown.Item>
+                        <Dropdown.Item href="/" className="text-secondary">Github</Dropdown.Item>
+                    </Dropdown.Menu>
+                </Dropdown>
+
             </Container>
         </Navbar>
     )

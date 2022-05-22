@@ -1,11 +1,11 @@
 import React from 'react'
-import NaviBar from './components/naviBar'
+import Home from './routes/Home'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 const App = () => {
   return(
-    <NaviBar />
+    <Home />
   )
 }
 

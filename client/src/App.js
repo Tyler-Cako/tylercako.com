@@ -1,7 +1,6 @@
 import React from 'react'
 import Home from './routes/Home'
-import 'bootstrap/dist/css/bootstrap.min.css'
-
+import './CSS/App.css'
 
 const App = () => {
   return(

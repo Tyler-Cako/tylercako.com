@@ -4,6 +4,7 @@
     overflow-x: hidden;
     box-sizing: border-box;
     font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
 }
 
 :root {
@@ -11,6 +12,10 @@
     --secondary-color: #A6CFD5;
     --tertiary-color: #C2E7D9;
     --quatenary-color: #0d0221;
+}
+
+body {
+    background-color: darkslategray;
 }
 
 a {

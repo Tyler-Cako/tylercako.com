@@ -1,7 +1,7 @@
 nav {
     background-color: green;
     width: 100%;
-    height: 5%;
+    height: 3rem;
     display: flex;
 }
 
@@ -14,4 +14,33 @@ nav {
 
 .drop-btn:hover {
     background-color: var(--secondary-color)
+}
+
+.dropdown-menu {
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    right: 0;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    transform: translateX(20vw);
+    opacity: 0;
+    transition: transform 500ms ease-in-out;
+}
+
+.dropdown-menu a {
+    margin: 5px;
+}
+
+.drop-btn:focus + .dropdown-menu {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.drop-exit {
+    margin-top: 150px !important;
 }

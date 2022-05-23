@@ -1,14 +1,15 @@
 import React from 'react'
-import '../CSS/naviBar.css'
+import '../CSS/NaviBar.css'
 
 
 
 const NaviBar = () => {
+    
     return(
         <nav>
-            <a href="/">Logo</a>
+            <a href="/" className="logo">Logo</a>
             <div className="dropdown">
-                <button className="dropBut" />
+                <button className="drop-btn" />
                 <div className="dropdown-menu">
                     <a href="/">Home</a>
                     <a href="/">About</a>

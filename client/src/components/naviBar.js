@@ -6,8 +6,6 @@ import '../CSS/NaviBar.css'
 const NaviBar = () => {
     const dropdownMenu = document.querySelector('dropdown-menu')
 
-    console.log(dropdownMenu)
-
     const openMenu = (e) => {
         dropdownMenu.classList.add('active')
     }

@@ -1,6 +1,6 @@
 nav {
     width: 100%;
-    height: 2rem;
+    height: 2.5rem;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
 }
 
@@ -19,7 +19,6 @@ nav {
     position: absolute;
     height: 100%;
     width: 20%;
-    right: 0;
     top: 0;
     background-color: red;
     display: flex;
@@ -27,8 +26,19 @@ nav {
     justify-content: center;
     align-items: center;
     pointer-events: none;
-    transform: translateX(20vw);
-    opacity: 0;
+}
+
+
+.dropdown-menu.active {
+    right: -20vw;
+    transform: translateX(-20vw);
+    transition: transform 500ms ease-in-out;
+    pointer-events: auto;
+}
+
+.dropdown-menu.hidden {
+    right: -20vw;
+    transform: translateX(-0vw);
     transition: transform 500ms ease-in-out;
 }
 
@@ -37,10 +47,9 @@ nav {
     color: white;
 }
 
-/* .drop-btn:focus + .dropdown-menu {
-    opacity: 1;
-    transform: translateX(0);
-} */
+.dropdown-menu a:hover {
+    background-color: rgba(0,0,0,60)
+}
 
 .drop-exit {
     margin-top: 150px !important;

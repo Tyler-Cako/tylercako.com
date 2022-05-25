@@ -29,3 +29,20 @@ button {
     background-color: var(--primary-color);
     border: none;
 }
+
+h1 {
+    font-size: 6rem;
+}
+
+h2  {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.container {
+    margin: 0, 100px, 0, 100px;
+    background-color: black;
+}

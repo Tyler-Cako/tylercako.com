@@ -1,4 +1,9 @@
 .about {
     display: flex;
-    flex-direction: row;
+}
+
+.tyler-photo {
+    width: 30vw;
+    height: 500px;
+    background-color: black;
 }

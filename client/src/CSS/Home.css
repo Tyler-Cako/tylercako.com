@@ -1,0 +1,14 @@
+.name {
+    height: 100vh;
+    margin-top: 5em !important;
+}
+
+
+.about {
+    height: 100vh;
+    background-color: red;
+}
+
+.nav-fixed {
+    position: fixed;
+}

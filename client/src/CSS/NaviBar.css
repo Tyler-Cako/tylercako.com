@@ -1,7 +1,10 @@
 nav {
+    z-index: 0;
     width: 100%;
-    height: 2.5rem;
+    height: 3rem;
+    background-color: white;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+    position: fixed;
 }
 
 .drop-btn {
@@ -16,7 +19,8 @@ nav {
 }
 
 .dropdown-menu {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     height: 100%;
     width: 20%;
     top: 0;

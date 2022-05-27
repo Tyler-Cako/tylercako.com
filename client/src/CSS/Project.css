@@ -1,0 +1,29 @@
+.project-container {
+    display: flex;
+    margin-top: 5em;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 2vw;
+}
+
+.btns-container{
+    display: flex;
+}
+
+.project-btn {
+    height: 3.5em;
+    width: 7em;
+    padding: 5px;
+    margin-right: 1em;
+    color: white;
+}
+
+.project-img {
+    max-width: 30vw;
+    margin-left: 2vw;
+}
+

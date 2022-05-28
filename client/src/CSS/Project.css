@@ -22,6 +22,12 @@
     color: white;
 }
 
+.project-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+
+
 .project-img {
     max-width: 30vw;
     margin-left: 2vw;

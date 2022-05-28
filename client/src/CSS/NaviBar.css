@@ -52,7 +52,7 @@ nav {
 }
 
 .dropdown-menu a:hover {
-    background-color: rgba(0,0,0,60)
+    background-color: var(--primary-color);
 }
 
 .drop-exit {

@@ -7,7 +7,7 @@
 
 .about {
     height: 100vh;
-    background-color: red;
+    background-color: var(--secondary-color);
 }
 
 .nav-fixed {

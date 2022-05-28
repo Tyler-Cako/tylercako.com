@@ -1,5 +1,5 @@
 .contact {
-    background-color: red;
+    background-color: var(--secondary-color);
     color: white;
     height: 100vh;
     max-height: 100vh;

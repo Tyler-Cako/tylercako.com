@@ -6,7 +6,7 @@ import '../CSS/NaviBar.css'
 const NaviBar = () => {
     const [drop, setDrop] = useState(false)
 
-    const dropDown = (event) => {
+    const dropDown = (event) => { //When called, changes state of drop to opposite of current boolean
         event.preventDefault()
         setDrop(!drop)
     }
@@ -18,7 +18,7 @@ const NaviBar = () => {
                 <a href="/" className="logo">Logo</a>
                 <button className="drop-btn" onClick={dropDown}/>
             </nav>
-            <div className={!drop ? 'dropdown-menu hidden' : 'dropdown-menu active'}>
+            <div className={!drop ? 'dropdown-menu hidden' : 'dropdown-menu active'}> {/* If drop not true: hidden, otherwise active*/}
                     <a href="/">Home</a>
                     <a href="/">About</a>
                     <a href="/">Projects</a>

@@ -23,11 +23,12 @@ a {
     color: var(--quatenary-color);
 }
 
-button {
-    width: 100px;
-    height: 100px;
+a.btn {
+    width: 7em;
+    height: 3.5em;
     background-color: var(--primary-color);
     border: none;
+    text-align: center;
 }
 
 h1 {

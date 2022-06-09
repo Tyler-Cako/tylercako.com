@@ -15,11 +15,14 @@
 }
 
 .project-btn {
-    height: 3.5em;
-    width: 7em;
     padding: 5px;
     margin-right: 1em;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: background-color 0.20s ease-in-out;
 }
 
 .project-btn:hover {

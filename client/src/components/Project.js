@@ -13,8 +13,8 @@ const Project = (props) => {
                 <h3>{props.name}</h3>
                 <p>{props.description}</p>
                 <div className="btns-container">
-                    <button href={props.github} className="project-btn" onClick={btnClick}> View Github</button>
-                    <button href={props.demo} className="project-btn" onClick={btnClick}>View Project</button>
+                    <a href={props.github} className="project-btn btn" onClick={btnClick} target="_blank" rel="noreferrer noopener">View Github</a>
+                    <a href={props.demo} className="project-btn btn" onClick={btnClick} target="_blank" rel="noreferrer noopener">View Project</a>
                 </div>
             </div>
         </div>

@@ -1,14 +1,25 @@
 .card {
-    width: 15vw;
-    height: 35vh;
-    margin-top: 2em;
+    width: 20vw;
+    height: 32vh;
+    margin: 2.2em 1.5em 0 1.5em;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: auto;
     background-color: var(--quatenary-color);
-    transition: transform .25s ease-in-out;
+    transition: transform .15s ease-in-out, background-color .15s ease-in-out;
     z-index: 0;
 }
 
 .card:hover {
-    transform: rotate(5deg) scale(1.1, 1.1);
+    transform: rotate(2.5deg) scale(1.1, 1.1);
+    background-color: var(--primary-color);
+}
+
+.img {
+    height: 20vh;
+    margin: 2vh 0 3vh 0;
+    align-self: center;
 }

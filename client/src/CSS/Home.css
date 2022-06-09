@@ -1,7 +1,11 @@
 .name {
-    height: 100vh;
-    max-height: 100vh;
+    height: 90vh;
+    max-height: 90vh;
     margin-top: 5em !important;
+}
+
+.name h3 {
+    margin-left: 0.5em;
 }
 
 

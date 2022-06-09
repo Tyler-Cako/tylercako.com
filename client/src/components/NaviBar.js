@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { TiThMenu } from 'react-icons/ti'
+import { Link } from 'react-scroll'
 import '../CSS/NaviBar.css'
 
 const NaviBar = () => {
@@ -20,11 +21,11 @@ const NaviBar = () => {
                 </div>
             </nav>
             <div className={!drop ? 'dropdown-menu hidden' : 'dropdown-menu active'}> {/* If drop not true: hidden, otherwise active*/}
-                    <a href="/">Home</a>
-                    <a href="/">About</a>
-                    <a href="/">Projects</a>
-                    <a href="/">Contact</a>
-                    <a className="drop-exit" onClick={dropDown} href="/">X</a>
+                <Link to="home" smooth={true} duration={500}>Home</Link>
+                <Link to="about" smooth={true} offset={-50} duration={500}>About</Link>
+                <Link to="projects" smooth={true} offset={-100} duration={500}>Projects</Link>
+                <Link to="contact" smooth={true} offset={-50} duration={500}>Contact</Link>
+                <a className="drop-exit" onClick={dropDown} href="/">X</a>
             </div>
         </>
     )

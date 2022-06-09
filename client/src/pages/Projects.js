@@ -2,7 +2,7 @@ import Project from '../components/Project'
 
 const Projects = () => {
     return(
-        <div className="container projects">
+        <div className="container projects" name="projects">
             <h2>Projects</h2>
             <Project 
                 name="Gym Tracker" 
@@ -13,7 +13,7 @@ const Projects = () => {
             <Project
                 name="Tylercako.com"
                 img="https://images.unsplash.com/photo-1653577755665-5732d35c169d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                description="Fullstack, responsive portfolio website that uses React, NodeJS and Express."
+                description="Fullstack, responsive portfolio website that uses React for the frontend and NodeJS/Express for the contact me page as well as the project demo routing."
                 github="https://github.com/Tyler-Cako/tylercako.com"
             />
         </div>

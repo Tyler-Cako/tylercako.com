@@ -2,7 +2,7 @@ import '../CSS/Contact.css'
 
 const Contact = () => {
     return(
-        <div className="contact">
+        <div className="contact" name="contact">
             <div className="container">
                 <h2>Contact</h2>
                 <form action="index.js" method="POST">

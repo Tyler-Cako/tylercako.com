@@ -1,7 +1,7 @@
 nav {
     display: flex;
     flex-direction: row;
-    z-index: 0;
+    z-index: 1;
     width: 100%;
     height: 3rem;
     background-color: white;
@@ -14,7 +14,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:
 }
 
 .drop-btn {
@@ -23,8 +22,8 @@ nav {
 }
 
 .drop-hamburger {
-    height: 2em;
-    width: 2em;
+    height: 1.75em;
+    width: 1.75em;
 }
 
 .drop-hamburger:hover {

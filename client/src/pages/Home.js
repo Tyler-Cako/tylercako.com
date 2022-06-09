@@ -1,4 +1,3 @@
-import React from 'react'
 import Navibar from '../components/NaviBar'
 import '../CSS/Home.css'
 

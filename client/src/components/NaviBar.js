@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import { useState } from 'react'
 import { TiThMenu } from 'react-icons/ti'
 import '../CSS/NaviBar.css'
 

@@ -1,8 +1,6 @@
 import React, {useState} from 'react'
 import '../CSS/NaviBar.css'
 
-
-
 const NaviBar = () => {
     const [drop, setDrop] = useState(false)
 

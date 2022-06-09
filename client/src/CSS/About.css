@@ -1,16 +1,13 @@
 .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     height: 100vh;
     max-height: 100vh;
-    background-color: var(--secondary-color)
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 .flex-container {
     display: flex;
     flex-direction: row;
-    color: white;
 }
 
 .text-content {

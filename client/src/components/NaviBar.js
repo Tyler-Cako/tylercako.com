@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
+import { TiThMenu } from 'react-icons/ti'
 import '../CSS/NaviBar.css'
-
-
 
 const NaviBar = () => {
     const [drop, setDrop] = useState(false)
@@ -16,7 +15,9 @@ const NaviBar = () => {
         <>
             <nav>  
                 <a href="/" className="logo">Logo</a>
-                <button className="drop-btn" onClick={dropDown}/>
+                <div className="btn-container">
+                    <a className="drop-btn" onClick={dropDown}><TiThMenu className="drop-hamburger"/></a>
+                </div>
             </nav>
             <div className={!drop ? 'dropdown-menu hidden' : 'dropdown-menu active'}> {/* If drop not true: hidden, otherwise active*/}
                     <a href="/">Home</a>

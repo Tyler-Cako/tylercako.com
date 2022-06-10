@@ -15,6 +15,7 @@ const Projects = () => {
                 img="https://images.unsplash.com/photo-1653577755665-5732d35c169d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                 description="Fullstack, responsive portfolio website that uses React for the frontend and NodeJS/Express for the contact me page as well as the project demo routing."
                 github="https://github.com/Tyler-Cako/tylercako.com"
+                demo="/"
             />
         </div>
     )

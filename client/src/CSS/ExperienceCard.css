@@ -11,6 +11,7 @@
     background-color: var(--quatenary-color);
     transition: transform .15s ease-in-out, background-color .15s ease-in-out;
     z-index: 0;
+    cursor: pointer;
 }
 
 .card:hover {

@@ -2,6 +2,7 @@
     height: auto;
     background-color: var(--secondary-color);
     color: white;
+    z-index: -1;
 }
 
 .flex-container {
@@ -14,3 +15,68 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+.club {
+    display: flex;
+    width: 80 em;
+    margin-bottom: 1em;
+}
+
+.experience-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-card div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 1em 0;
+}
+
+.experience-card a {
+    color: default;
+    width: 100px;
+}
+
+.test-img {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin-right: 1em;
+}
+
+.experience-txt {
+    width: 60em;
+    margin-bottom: 0.5em;
+}
+
+.curve {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    overflow-y: hidden;
+  }
+
+  .curve::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    transform: translate(85%, -40%);
+    background-color: red;
+    z-index: -1;
+  }
+
+  .curve::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: black;
+    transform: translate(-4%, -40%);
+  }

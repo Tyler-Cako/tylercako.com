@@ -15,7 +15,6 @@ const NaviBar = () => {
     return(
         <>
             <nav>  
-                <a href="/" className="logo">Logo</a>
                 <div className="btn-container">
                     <a className="drop-btn" onClick={dropDown}><TiThMenu className="drop-hamburger"/></a>
                 </div>

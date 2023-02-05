@@ -23,6 +23,7 @@
     justify-content: center;
     text-align: center;
     transition: background-color 0.20s ease-in-out;
+    border-radius: 
 }
 
 .project-btn:hover {

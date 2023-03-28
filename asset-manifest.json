@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/Tylercako.com/static/css/main.ff84e057.css",
-    "main.js": "/Tylercako.com/static/js/main.57180819.js",
-    "index.html": "/Tylercako.com/index.html",
-    "main.ff84e057.css.map": "/Tylercako.com/static/css/main.ff84e057.css.map",
-    "main.57180819.js.map": "/Tylercako.com/static/js/main.57180819.js.map"
+    "main.css": "/tylercako.com/static/css/main.0d2c5b09.css",
+    "main.js": "/tylercako.com/static/js/main.cb60cc53.js",
+    "static/media/react.png": "/tylercako.com/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/tylercako.com/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/tylercako.com/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/html.png": "/tylercako.com/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/tylercako.com/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/tylercako.com/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/tylercako.com/index.html",
+    "main.0d2c5b09.css.map": "/tylercako.com/static/css/main.0d2c5b09.css.map",
+    "main.cb60cc53.js.map": "/tylercako.com/static/js/main.cb60cc53.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff84e057.css",
-    "static/js/main.57180819.js"
+    "static/css/main.0d2c5b09.css",
+    "static/js/main.cb60cc53.js"
   ]
 }

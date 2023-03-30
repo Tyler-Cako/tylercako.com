@@ -6,6 +6,7 @@ import Contact from './pages/Contact'
 import './CSS/App.css'
 
 const App = () => {
+  //Test github pages commit
   return(
     <>
       <Home />

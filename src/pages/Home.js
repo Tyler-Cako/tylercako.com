@@ -3,7 +3,7 @@ import '../CSS/Home.css'
 
 const Home = () => {
     return(
-        <div name="home">
+        <div className="home">
             <Navibar className='nav-fixed'/>
             <div className="container name">
                 <h1>Tyler Cako</h1>

@@ -5,6 +5,7 @@
 
 .name {
     height: 85vh;
+    color: white;
 }
 
 .name h3 {
@@ -21,7 +22,6 @@
     height: 3em;
     width: 8em;
     overflow: visible;
-    background-color: red;
     padding: 5px;
     box-sizing: border-box;
     cursor: pointer;

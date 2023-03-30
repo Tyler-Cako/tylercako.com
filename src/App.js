@@ -9,6 +9,7 @@ const App = () => {
   //Test github pages commit
   return(
     <>
+      <div className="photo"/>
       <Home />
       <About/>
       <Projects />

@@ -23,7 +23,7 @@
     justify-content: center;
     text-align: center;
     transition: background-color 0.20s ease-in-out;
-    border-radius: 
+    border-radius: 5px;
 }
 
 .project-btn:hover {
@@ -33,7 +33,10 @@
 
 
 .project-img {
-    max-width: 30vw;
+    width: 30vw;
+    height: 35vh;
+    size: cover;
     margin-left: 2vw;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .2);
 }
 

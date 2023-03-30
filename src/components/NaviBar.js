@@ -14,16 +14,15 @@ const NaviBar = () => {
 
     return(
         <>
-            <nav>  
-                <div className="btn-container">
-                    <a className="drop-btn" onClick={dropDown}><TiThMenu className="drop-hamburger"/></a>
-                </div>
-            </nav>
+            <a className="drop-btn" onClick={dropDown}><TiThMenu className="drop-hamburger"/></a>
             <div className={!drop ? 'dropdown-menu hidden' : 'dropdown-menu active'}> {/* If drop not true: hidden, otherwise active*/}
                 <Link to="home" smooth={true} duration={500}>Home</Link>
                 <Link to="about" smooth={true} offset={-50} duration={500}>About</Link>
                 <Link to="projects" smooth={true} offset={-100} duration={500}>Projects</Link>
                 <Link to="contact" smooth={true} offset={-50} duration={500}>Contact</Link>
+                <a target="_blank" href="https://drive.google.com/file/d/1whjSnhAt_NslghLJOtNfSAb8-co0_1TJ/view?usp=sharing">Resume</a>
+                <a target="_blank" href="https://github.com/Tyler-Cako">Github</a>
+
                 <a className="drop-exit" onClick={dropDown} href="/">X</a>
             </div>
         </>

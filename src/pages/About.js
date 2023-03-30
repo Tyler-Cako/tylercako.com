@@ -29,25 +29,25 @@ const About = () => {
                         />
                         <div className="clubs">
                             <div className="club">
-                                <div className="test-img" />
+                                <div className="robotics" />
                                 <div className="experience-card">
                                     <div>
                                         <h3>CU Robotics</h3>
                                         <h4>2022-Present</h4>
                                     </div>
-                                    <p className="experience-txt">Primarily worked with testing components for resposne times and power outputs. Built a display system that shows useful robot data using the SPI communication interface</p>
-                                    <a href="https://www.curobotics.net/">Read more.</a>
+                                    <p className="experience-txt">Primarily worked with testing components, including improving response time and recording power output. I also created a display interface for development using the SPI communication interface.</p>
+                                    <a className="about-btn" target="_blank" href="https://www.curobotics.net/">Read more</a>
                                 </div>
                             </div>
                             <div className="club">
-                                <div className="test-img" />
+                                <div className="blueprint" />
                                 <div className="experience-card">
                                     <div>
                                         <h3>Blueprint Boulder</h3>
                                         <h4>2022-Present</h4>
                                     </div>
-                                    <p className="experience-txt">Software development for social good. Worked with Django and developed the frontend for the Lafayette Empowerment Center dashboard/database.</p> 
-                                    <a href="https://blueprintboulder.org/">Read more.</a>
+                                    <p className="experience-txt">Worked primarily on the frontend dashboard for the Lafayette Empowerment Center.</p> 
+                                    <a className="about-btn" target="_blank" href="https://blueprintboulder.org/">Read more</a>
                                 </div>
                             </div>
                         </div>

@@ -9,7 +9,9 @@ const App = () => {
   //Test github pages commit
   return(
     <>
-      <div className="photo"/>
+      <div className="photo-container">
+        <div className="photo"/>
+      </div>
       <Home />
       <About/>
       <Projects />

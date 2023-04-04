@@ -40,11 +40,11 @@ const Contact = () => {
                         <h3>Contact Form</h3>
                         <div className="contact-form">
                             <label htmlfor="name">Name</label>
-                            <input type="text" name="name" value={name} onChange={(e) => setName(e.target.value)}/>
+                            <input type="text" name="name" value={name} onChange={(e) => setName(e.target.value)} required/>
                             <label htmlfor="email">Email</label>
-                            <input type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                            <input type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
                             <label htmlfor="message">Message</label>
-                            <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)}/>
+                            <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)} required/>
                         </div>
                         <button type="submit" className="contact-btn">Submit</button>
                         {success==true &&

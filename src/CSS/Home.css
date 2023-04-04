@@ -1,11 +1,13 @@
 .home {
-    display: block;
     position: relative;
+    display: flex;
+    height: 95vh;
+    padding: 0;
 }
 
 .name {
-    height: 85vh;
     color: white;
+    height: 100%;
 }
 
 .name h3 {
@@ -35,7 +37,20 @@
     margin-top: 10px;
 }
 
+
 .button:hover {
     transform: rotate(1deg) scale(1.05, 1.05);
     transition: transform .25s;
+}
+
+@media screen and (max-width: 1000px) {
+    .home {
+        padding-top: 60vh;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .home {
+        padding-top: 40vh;
+    }
 }

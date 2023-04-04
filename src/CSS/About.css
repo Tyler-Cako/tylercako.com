@@ -31,7 +31,7 @@
 .experience-card div {
     display: flex;
     justify-content: space-between;
-    margin: 0 0 1em 0;
+    margin-bottom: 1em;
 }
 
 .experience-card a {

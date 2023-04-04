@@ -54,3 +54,21 @@
 .drop-exit {
     margin-top: 150px !important;
 }
+
+@media screen and (max-width: 1000px) {
+    .dropdown-menu {
+        width: 80%;
+    }
+    .dropdown-menu.active {
+    right: -80vw;
+    transform: translateX(-80vw);
+    transition: transform 500ms ease-in-out;
+    pointer-events: auto;
+    }
+
+    .dropdown-menu.hidden {
+        right: -80vw;
+        transform: translateX(-0vw);
+        transition: transform 500ms ease-in-out;
+    }
+}

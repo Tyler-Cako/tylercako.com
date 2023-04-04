@@ -2,7 +2,6 @@
     position: relative;
     display: flex;
     height: 95vh;
-    padding: 0;
 }
 
 .name {
@@ -44,13 +43,9 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .home {
-        padding-top: 60vh;
+    .name-container {
+        position: absolute;
+        bottom: 0;
     }
 }
 
-@media screen and (max-width: 580px) {
-    .home {
-        padding-top: 40vh;
-    }
-}

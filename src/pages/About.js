@@ -46,7 +46,7 @@ const About = () => {
                                         <h3>Blueprint Boulder</h3>
                                         <h4>2022-Present</h4>
                                     </div>
-                                    <p className="experience-txt">Worked primarily on the frontend dashboard for the Lafayette Empowerment Center.</p> 
+                                    <p className="experience-txt">Worked on the frontend dashboard for the Lafayette Empowerment Center using Tailwind CSS and Django templating.</p> 
                                     <a className="about-btn" target="_blank" href="https://blueprintboulder.org/">Read more</a>
                                 </div>
                             </div>

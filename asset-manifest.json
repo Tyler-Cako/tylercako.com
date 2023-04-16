@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.521b56ac.css",
+    "main.css": "/static/css/main.b48147bc.css",
     "main.js": "/static/js/main.8be8114f.js",
     "static/media/tyler.jpg": "/static/media/tyler.6849e5bfb583eee54200.jpg",
     "static/media/tylerrrcako.JPG": "/static/media/tylerrrcako.3771c629e64359e335ed.JPG",
@@ -15,11 +15,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/awesome-logo.webp": "/static/media/awesome-logo.df7d1f97d00300681c05.webp",
     "index.html": "/index.html",
-    "main.521b56ac.css.map": "/static/css/main.521b56ac.css.map",
+    "main.b48147bc.css.map": "/static/css/main.b48147bc.css.map",
     "main.8be8114f.js.map": "/static/js/main.8be8114f.js.map"
   },
   "entrypoints": [
-    "static/css/main.521b56ac.css",
+    "static/css/main.b48147bc.css",
     "static/js/main.8be8114f.js"
   ]
 }

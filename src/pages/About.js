@@ -2,6 +2,8 @@ import '../CSS/About.css'
 import ExperienceCard from '../components/ExperienceCard'
 import HTML from '../assets/html.png'
 import CSS from '../assets/css.png'
+import CPP from '../assets/cpppp.png'
+import AWS from '../assets/aws.png'
 import JS from '../assets/javascript.png'
 import NODE from '../assets/node.png'
 import REACT from '../assets/react.png'
@@ -26,6 +28,18 @@ const About = () => {
                         <ExperienceCard 
                         img={NODE}
                         text="Node.JS"
+                        />
+                        <ExperienceCard 
+                        img={MONGO}
+                        text="MongoDB"
+                        />
+                        <ExperienceCard 
+                        img={CPP}
+                        text="C++"
+                        />
+                        <ExperienceCard 
+                        img={AWS}
+                        text="AWS"
                         />
                         <div className="clubs">
                             <div className="club">

@@ -34,14 +34,14 @@
     margin-bottom: 1em;
 }
 
+
 .experience-card a {
     color: default;
     width: 100px;
 }
 
 .robotics {
-    width: 100px;
-    height: 100px;
+    width: 5em;
     background-image: url("../assets/awesome-logo.webp");
     background-repeat: no-repeat;
     background-size: contain;
@@ -49,8 +49,7 @@
 }
 
 .blueprint {
-    width: 100px;
-    height: 100px;
+    width: 5em;
     background-image: url("../assets/blueprint.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -76,4 +75,13 @@
 
 .about-btn:hover {
     background-color: rgb(36, 36, 36);
+}
+
+@media screen and (max-width: 600px) {
+    .robotics {
+        display: none;
+    }
+    .blueprint {
+        display: none;
+    }
 }

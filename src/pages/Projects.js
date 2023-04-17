@@ -7,9 +7,9 @@ const Projects = () => {
             <Project 
                 name="Gym Tracker" 
                 img={require('../assets/gym-tracker.JPG')}
-                description="A fullstack web/mobile application built with React, NodeJS, Express and MongoDB that tracks a user's exercises and helps the user improve their lifts as well as display their progress."
+                description="A fullstack web/mobile application built with React, NodeJS, Express and MongoDB that tracks a user's exercises and helps the user improve their lifts as well as display their progress. Hosted on an AWS EC2 instance using NGINX as a reverse proxy."
                 github="https://github.com/Tyler-Cako/gym-tracker"
-                demo="http://gymtracker.tylercako.com"
+                demo="http://gymtrack.tylercako.com"
             />
             <Project
                 name="Tylercako.com"

@@ -13,7 +13,7 @@ const Projects = () => {
             />
             <Project
                 name="Tylercako.com"
-                img={require('../assets/tylerrrcako.JPG')}
+                img={require('../assets/tylercako.com.png')}
                 description="Reponsive portfolio website using React and custom CSS."
                 github="https://github.com/Tyler-Cako/tylercako.com"
                 demo="/"

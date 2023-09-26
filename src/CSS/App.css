@@ -61,7 +61,7 @@ h4 {
 
 .photo {
     position: relative;
-    background-image: url(../assets/tyler.jpg);
+    background-image: url("../assets/tyler.jpg");
     height: 100%;
     max-height: inherit;
     widht: 100%;

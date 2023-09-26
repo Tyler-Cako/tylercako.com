@@ -41,6 +41,22 @@
     width: 100px;
 }
 
+.zivaro {
+    width: 5em;
+    background-image: url("../assets/Zivaro-client-logo-01.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 1em;
+}
+
+.ra {
+    width: 5em;
+    background-image: url("../assets/boulder.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 1em;
+}
+
 .robotics {
     width: 5em;
     background-image: url("../assets/awesome-logo.webp");

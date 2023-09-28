@@ -20,7 +20,7 @@ const NaviBar = () => {
                 <Link to="about" smooth={true} offset={-50} duration={500}>About</Link>
                 <Link to="projects" smooth={true} offset={-100} duration={500}>Projects</Link>
                 <Link to="contact" smooth={true} offset={-50} duration={500}>Contact</Link>
-                <a target="_blank" href="https://drive.google.com/file/d/1whjSnhAt_NslghLJOtNfSAb8-co0_1TJ/view?usp=sharing">Resume</a>
+                <a target="_blank" href="https://drive.google.com/file/d/1XrcKabV2zGvHxFipNkeJV939C5kPgqFq/view">Resume</a>
                 <a target="_blank" href="https://github.com/Tyler-Cako">Github</a>
 
                 <a className="drop-exit" onClick={dropDown} href="/">X</a>
